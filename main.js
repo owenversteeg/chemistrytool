@@ -6,8 +6,8 @@ Mousetrap.bind('down', function() { increaseValue(-5); });
 function getElement(text) {
   var capitalized = text.substr(0,1).toUpperCase()+text.toLowerCase().substr(1)
   if (elements[capitalized]) return elements[capitalized]
-  for (var i=0; i<elements.length; i++) {
-    if (elements[i].symbol === text) return elements[i]
+  for (var i=0; i<Object.keys(elements).length; i++) {
+    if (elements[Object.keys(elements)[i]].symbol === text) return elements[Object.keys(elements)[i]]
   }
 }
 

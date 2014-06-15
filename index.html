@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>ColorTool</title>
+		<!-- start Mixpanel -->
+		<script type="text/javascript">(function(e,b){if(!b.__SV){var a,f,i,g;window.mixpanel=b;a=e.createElement("script");a.type="text/javascript";a.async=!0;a.src=("https:"===e.location.protocol?"https:":"http:")+'//cdn.mxpnl.com/libs/mixpanel-2.2.min.js';f=e.getElementsByTagName("script")[0];f.parentNode.insertBefore(a,f);b._i=[];b.init=function(a,e,d){function f(b,h){var a=h.split(".");2==a.length&&(b=b[a[0]],h=a[1]);b[h]=function(){b.push([h].concat(Array.prototype.slice.call(arguments,0)))}}var c=b;"undefined"!==
+		typeof d?c=b[d]=[]:d="mixpanel";c.people=c.people||[];c.toString=function(b){var a="mixpanel";"mixpanel"!==d&&(a+="."+d);b||(a+=" (stub)");return a};c.people.toString=function(){return c.toString(1)+".people (stub)"};i="disable track track_pageview track_links track_forms register register_once alias unregister identify name_tag set_config people.set people.set_once people.increment people.append people.track_charge people.clear_charges people.delete_user".split(" ");for(g=0;g<i.length;g++)f(c,i[g]);
+		b._i.push([a,e,d])};b.__SV=1.2}})(document,window.mixpanel||[]);
+		mixpanel.init("38f2fe5e76462e65f412eb5c30a2a452");</script>
+		<!-- end Mixpanel -->
+
+		<script type="text/javascript" src="mousetrap.js"></script>
+		<script type="text/javascript" src="wavelengthToRGB.js"></script>
+		<script type="text/javascript" src="colorNameToHex.js"></script>
+		
+		<script type="text/javascript">
+			setInterval(function(){
+			 var focusbox;
+			 focusbox = document.getElementById("inputBox");
+			 focusbox.focus();
+			});
+			
+			mixpanel.track('Page load')
+		</script>
+	</head>
+	<body>
+		<style type="text/css">
+			#outputColor {
+				height: 100px;
+				width: 100px;
+			}
+		</style>
+		<h3>Using this tool, you can convert between color, wavelength, energy, and frequency.</h3>
+		Please enter your input <b>without</b> units. The program will recognize your units for you.
+		<br>
+		If you wish to input frequency or energy, please input it in scientific notation with an e. Example: 5e14 or 3e-19
+		<br>
+		Enter a wavelength, color, frequency, or amount of energy: <input type="text" class="mousetrap" id="inputBox" value="505" autofocus></input>
+		<br>
+		<button onclick="getColorOrWavelength()">Get result</button>
+		<br>
+		Press Enter (or the button) to get your result
+		<br>
+		<h3 id="outputText"></h3>
+		<div id="outputColor"></div>
+		<script type="text/javascript" src="main.js"></script>
+		<br>
+		<h3>Useful Symbols:</h3>
+		&lambda; = wavelength
+		<br>
+		c = speed of light
+		<br>
+		<i>v</i> or <i>f</i> = frequency
+		<br>
+		<i>h</i> = Planck constant
+		<br>
+		<h3>Useful Equations</h3>
+		&lambda; = 1/<i>v</i> (wavelength = 1/frequency)
+		<br>
+		&Delta;E = -2.178*10e-18 J * (1/n<sub>f</sub>^2 * 1/n<sub>I</sub>^2) (Bohr equation)
+		<br><br>
+		Please send feature requests, bugs, and/or praise to <a href="mailto:me@owenversteeg.com">me@owenversteeg.com</a>
+		<br><br>
+		Try the following colors for extra fun:
+		<br>
+		Automotive Amber
+		<br>
+		Azure
+		<br>
+		Boston University Red
+		<br>
+		School Bus Yellow
+	</body>
+</html>

@@ -14,12 +14,12 @@ var elements = {
         "fusion_heat (kJ/mol)" : "0.117 (H-H)",
         "evaporation_heat (kJ/mol)" : "0.904 (H-H)",
         "thermal_conductivity (@25°C W/m K) " : 0.1815,
-        "pauling_negativity" : 2.20,
+        "pauling_negativity" : 2.2,
         "first_ionizing kJ/mol" : 1311.3,
         "oxidation_states" : "1, -1",
-        "electronic_configuration" : "1s¹",
+        "electronic_configuration" : "1s<sup>1</sup>",
         "lattice_structure" : "HEX",
-        "lattice_constant ang" : 3.750
+        "lattice_constant ang" : 3.75
     },
     "Helium": {
         "symbol" : "He",
@@ -28,7 +28,7 @@ var elements = {
         "density g/cm" : "0.147 (@ -270°C)",
         "melting_point K" : 0.95,
         "boiling_point K" : 4.216,
-        "atomic_radius pm" : 0.0,
+        "atomic_radius pm" : 0,
         "covalent_radius pm" : "-",
         "ionic_radius pm" : "",
         "atomic_volume cm3/mol" : 31.8,
@@ -39,9 +39,9 @@ var elements = {
         "pauling_negativity" : "-",
         "first_ionizing kJ/mol" : 2361.3,
         "oxidation_states" : "-",
-        "electronic_configuration" : "1s²",
+        "electronic_configuration" : "1s<sup>2</sup>",
         "lattice_structure" : "HEX",
-        "lattice_constant ang" : 3.570
+        "lattice_constant ang" : 3.57
     },
     "Lithium": {
         "symbol" : "Li",
@@ -61,9 +61,9 @@ var elements = {
         "pauling_negativity" : 0.98,
         "first_ionizing kJ/mol" : 519.9,
         "oxidation_states" : 1,
-        "electronic_configuration" : "[He]2s¹",
+        "electronic_configuration" : "[He]2s<sup>1</sup>",
         "lattice_structure" : "BCC",
-        "lattice_constant ang" : 3.490
+        "lattice_constant ang" : 3.49
     },
     "Beryllium": {
         "symbol" : "Be",
@@ -75,7 +75,7 @@ var elements = {
         "atomic_radius pm" : 112,
         "covalent_radius pm" : 90,
         "ionic_radius pm" : "",
-        "atomic_volume cm3/mol" : 5.0,
+        "atomic_volume cm3/mol" : 5,
         "specific_heat (@20°C J/g mol)" : 1.824,
         "fusion_heat (kJ/mol)" : 12.21,
         "evaporation_heat (kJ/mol)" : 309,
@@ -83,9 +83,9 @@ var elements = {
         "pauling_negativity" : 1.57,
         "first_ionizing kJ/mol" : 898.8,
         "oxidation_states" : 2,
-        "electronic_configuration" : "[He]2s²",
+        "electronic_configuration" : "[He]2s<sup>2</sup>",
         "lattice_structure" : "HEX",
-        "lattice_constant ang" : 2.290
+        "lattice_constant ang" : 2.29
     },
     "Boron": {
         "symbol" : "B",
@@ -99,15 +99,15 @@ var elements = {
         "ionic_radius pm" : "",
         "atomic_volume cm3/mol" : 4.6,
         "specific_heat (@20°C J/g mol)" : 1.025,
-        "fusion_heat (kJ/mol)" : 23.60,
+        "fusion_heat (kJ/mol)" : 23.6,
         "evaporation_heat (kJ/mol)" : 504.5,
         "thermal_conductivity (@25°C W/m K) " : 27.4,
         "pauling_negativity" : 2.04,
         "first_ionizing kJ/mol" : 800.2,
         "oxidation_states" : 3,
-        "electronic_configuration" : "[He]2s²2p¹",
+        "electronic_configuration" : "[He]2s<sup>2</sup>2p<sup>1</sup>",
         "lattice_structure" : "TET",
-        "lattice_constant ang" : 8.730
+        "lattice_constant ang" : 8.73
     },
     "Carbon": {
         "symbol" : "C",
@@ -127,9 +127,9 @@ var elements = {
         "pauling_negativity" : 2.55,
         "first_ionizing kJ/mol" : 1085.7,
         "oxidation_states" : "4, 2, -4",
-        "electronic_configuration" : "[He]2s²2p²",
+        "electronic_configuration" : "[He]2s<sup>2</sup>2p<sup>2</sup>",
         "lattice_structure" : "DIA",
-        "lattice_constant ang" : 3.570
+        "lattice_constant ang" : 3.57
     },
     "Nitrogen": {
         "symbol" : "N",
@@ -149,7 +149,7 @@ var elements = {
         "pauling_negativity" : 3.04,
         "first_ionizing kJ/mol" : 1401.5,
         "oxidation_states" : "5, 4, 3, 2, -3",
-        "electronic_configuration" : "[He]2s²2p³",
+        "electronic_configuration" : "[He]2s<sup>2</sup>2p<sup>3</sup>",
         "lattice_structure" : "HEX",
         "lattice_constant ang" : 4.039
     },
@@ -163,7 +163,7 @@ var elements = {
         "atomic_radius pm" : "-",
         "covalent_radius pm" : 73,
         "ionic_radius pm" : "",
-        "atomic_volume cm3/mol" : 14.0,
+        "atomic_volume cm3/mol" : 14,
         "specific_heat (@20°C J/g mol)" : "0.916 (O-O)",
         "fusion_heat (kJ/mol)" : "-",
         "evaporation_heat (kJ/mol)" : "-",
@@ -171,9 +171,9 @@ var elements = {
         "pauling_negativity" : 3.44,
         "first_ionizing kJ/mol" : 1313.1,
         "oxidation_states" : "-2, -1",
-        "electronic_configuration" : "[He]2s²2p",
+        "electronic_configuration" : "[He]2s<sup>2</sup>2p<sup>4</sup>",
         "lattice_structure" : "CUB",
-        "lattice_constant ang" : 6.830
+        "lattice_constant ang" : 6.83
     },
     "Fluorine": {
         "symbol" : "F",
@@ -191,9 +191,9 @@ var elements = {
         "evaporation_heat (kJ/mol)" : "6.54 (F-F)",
         "thermal_conductivity (@25°C W/m K) " : 0.028,
         "pauling_negativity" : 3.98,
-        "first_ionizing kJ/mol" : 1680.0,
+        "first_ionizing kJ/mol" : 1680,
         "oxidation_states" : -1,
-        "electronic_configuration" : "[He]2s²2p",
+        "electronic_configuration" : "[He]2s<sup>2</sup>2p<sup>5</sup>",
         "lattice_structure" : "MCL",
         "lattice_constant ang" : "-"
     },
@@ -212,12 +212,12 @@ var elements = {
         "fusion_heat (kJ/mol)" : "-",
         "evaporation_heat (kJ/mol)" : 1.74,
         "thermal_conductivity (@25°C W/m K) " : "(0.0493)",
-        "pauling_negativity" : 0.0,
+        "pauling_negativity" : 0,
         "first_ionizing kJ/mol" : 2079.4,
         "oxidation_states" : "-",
-        "electronic_configuration" : "[He]2s²2p",
+        "electronic_configuration" : "[He]2s<sup>2</sup>2p<sup>6</sup>",
         "lattice_structure" : "FCC",
-        "lattice_constant ang" : 4.430
+        "lattice_constant ang" : 4.43
     },
     "Sodium": {
         "symbol" : "Na",
@@ -233,13 +233,13 @@ var elements = {
         "specific_heat (@20°C J/g mol)" : 1.222,
         "fusion_heat (kJ/mol)" : 2.64,
         "evaporation_heat (kJ/mol)" : 97.9,
-        "thermal_conductivity (@25°C W/m K) " : 142.0,
+        "thermal_conductivity (@25°C W/m K) " : 142,
         "pauling_negativity" : 0.93,
         "first_ionizing kJ/mol" : 495.6,
         "oxidation_states" : 1,
-        "electronic_configuration" : "[Ne]3s¹",
+        "electronic_configuration" : "[Ne]3s<sup>1</sup>",
         "lattice_structure" : "BCC",
-        "lattice_constant ang" : 4.230
+        "lattice_constant ang" : 4.23
     },
     "Magnesium": {
         "symbol" : "Mg",
@@ -251,17 +251,17 @@ var elements = {
         "atomic_radius pm" : 160,
         "covalent_radius pm" : 136,
         "ionic_radius pm" : "",
-        "atomic_volume cm3/mol" : 14.0,
+        "atomic_volume cm3/mol" : 14,
         "specific_heat (@20°C J/g mol)" : 1.025,
-        "fusion_heat (kJ/mol)" : 9.20,
+        "fusion_heat (kJ/mol)" : 9.2,
         "evaporation_heat (kJ/mol)" : 131.8,
         "thermal_conductivity (@25°C W/m K) " : 156,
         "pauling_negativity" : 1.31,
         "first_ionizing kJ/mol" : 737.3,
         "oxidation_states" : 2,
-        "electronic_configuration" : "[Ne]3s²",
+        "electronic_configuration" : "[Ne]3s<sup>2</sup>",
         "lattice_structure" : "HEX",
-        "lattice_constant ang" : 3.210
+        "lattice_constant ang" : 3.21
     },
     "Aluminum": {
         "symbol" : "Al",
@@ -273,17 +273,17 @@ var elements = {
         "atomic_radius pm" : 143,
         "covalent_radius pm" : 118,
         "ionic_radius pm" : "",
-        "atomic_volume cm3/mol" : 10.0,
-        "specific_heat (@20°C J/g mol)" : 0.900,
+        "atomic_volume cm3/mol" : 10,
+        "specific_heat (@20°C J/g mol)" : 0.9,
         "fusion_heat (kJ/mol)" : 10.75,
         "evaporation_heat (kJ/mol)" : 284.1,
         "thermal_conductivity (@25°C W/m K) " : 237,
         "pauling_negativity" : 1.61,
         "first_ionizing kJ/mol" : 577.2,
         "oxidation_states" : 3,
-        "electronic_configuration" : "[Ne]3s²3p¹",
+        "electronic_configuration" : "[Ne]3s<sup>2</sup>3p<sup>1</sup>",
         "lattice_structure" : "FCC",
-        "lattice_constant ang" : 4.050
+        "lattice_constant ang" : 4.05
     },
     "Silicon": {
         "symbol" : "Si",
@@ -300,12 +300,12 @@ var elements = {
         "fusion_heat (kJ/mol)" : 50.6,
         "evaporation_heat (kJ/mol)" : 383,
         "thermal_conductivity (@25°C W/m K) " : 149,
-        "pauling_negativity" : 1.90,
-        "first_ionizing kJ/mol" : 786.0,
+        "pauling_negativity" : 1.9,
+        "first_ionizing kJ/mol" : 786,
         "oxidation_states" : "4, -4",
-        "electronic_configuration" : "[Ne]3s²3p²",
+        "electronic_configuration" : "[Ne]3s<sup>2</sup>3p<sup>2</sup>",
         "lattice_structure" : "DIA",
-        "lattice_constant ang" : 5.430
+        "lattice_constant ang" : 5.43
     },
     "Phosphorus": {
         "symbol" : "P",
@@ -317,7 +317,7 @@ var elements = {
         "atomic_radius pm" : 128,
         "covalent_radius pm" : 106,
         "ionic_radius pm" : "",
-        "atomic_volume cm3/mol" : 17.0,
+        "atomic_volume cm3/mol" : 17,
         "specific_heat (@20°C J/g mol)" : 0.757,
         "fusion_heat (kJ/mol)" : 2.51,
         "evaporation_heat (kJ/mol)" : 49.8,
@@ -325,15 +325,15 @@ var elements = {
         "pauling_negativity" : 2.19,
         "first_ionizing kJ/mol" : 1011.2,
         "oxidation_states" : "5, 3, -3",
-        "electronic_configuration" : "[Ne]3s²3p³",
+        "electronic_configuration" : "[Ne]3s<sup>2</sup>3p<sup>3</sup>",
         "lattice_structure" : "CUB",
-        "lattice_constant ang" : 7.170
+        "lattice_constant ang" : 7.17
     },
     "Sulfur": {
         "symbol" : "S",
         "atomic_number" : 16,
         "atomic_weight" : 32.066,
-        "density g/cm" : 2.070,
+        "density g/cm" : 2.07,
         "melting_point K" : 386,
         "boiling_point K" : 717.824,
         "atomic_radius pm" : 127,
@@ -345,11 +345,11 @@ var elements = {
         "evaporation_heat (kJ/mol)" : 10.5,
         "thermal_conductivity (@25°C W/m K) " : 0.27,
         "pauling_negativity" : 2.58,
-        "first_ionizing kJ/mol" : 999.0,
+        "first_ionizing kJ/mol" : 999,
         "oxidation_states" : "6, 4, 2, -2",
-        "electronic_configuration" : "[Ne]3s²3p",
+        "electronic_configuration" : "[Ne]3s<sup>2</sup>3p<sup>4</sup>",
         "lattice_structure" : "ORC",
-        "lattice_constant ang" : 10.470
+        "lattice_constant ang" : 10.47
     },
     "Chlorine": {
         "symbol" : "Cl",
@@ -369,9 +369,9 @@ var elements = {
         "pauling_negativity" : 3.16,
         "first_ionizing kJ/mol" : 1254.9,
         "oxidation_states" : "7, 5, 3, 1, -1",
-        "electronic_configuration" : "[Ne]3s²3p",
+        "electronic_configuration" : "[Ne]3s<sup>2</sup>3p<sup>5</sup>",
         "lattice_structure" : "ORC",
-        "lattice_constant ang" : 6.240
+        "lattice_constant ang" : 6.24
     },
     "Argon": {
         "symbol" : "Ar",
@@ -388,12 +388,12 @@ var elements = {
         "fusion_heat (kJ/mol)" : "-",
         "evaporation_heat (kJ/mol)" : 6.52,
         "thermal_conductivity (@25°C W/m K) " : 0.0177,
-        "pauling_negativity" : 0.0,
+        "pauling_negativity" : 0,
         "first_ionizing kJ/mol" : 1519.6,
         "oxidation_states" : "-",
-        "electronic_configuration" : "[Ne]3s²3p",
+        "electronic_configuration" : "[Ne]3s<sup>2</sup>3p<sup>6</sup>",
         "lattice_structure" : "FCC",
-        "lattice_constant ang" : 5.260
+        "lattice_constant ang" : 5.26
     },
     "Potassium": {
         "symbol" : "K",
@@ -409,13 +409,13 @@ var elements = {
         "specific_heat (@20°C J/g mol)" : 0.753,
         "fusion_heat (kJ/mol)" : 102.5,
         "evaporation_heat (kJ/mol)" : 2.33,
-        "thermal_conductivity (@25°C W/m K) " : 79.0,
+        "thermal_conductivity (@25°C W/m K) " : 79,
         "pauling_negativity" : 0.82,
         "first_ionizing kJ/mol" : 418.5,
         "oxidation_states" : 1,
-        "electronic_configuration" : "[Ar]4s¹",
+        "electronic_configuration" : "[Ar]4s<sup>1</sup>",
         "lattice_structure" : "BCC",
-        "lattice_constant ang" : 5.230
+        "lattice_constant ang" : 5.23
     },
     "Calcium": {
         "symbol" : "Ca",
@@ -429,15 +429,15 @@ var elements = {
         "ionic_radius pm" : "",
         "atomic_volume cm3/mol" : 29.9,
         "specific_heat (@20°C J/g mol)" : 0.653,
-        "fusion_heat (kJ/mol)" : 9.20,
+        "fusion_heat (kJ/mol)" : 9.2,
         "evaporation_heat (kJ/mol)" : 153.6,
         "thermal_conductivity (@25°C W/m K) " : "(201)",
-        "pauling_negativity" : 1.00,
+        "pauling_negativity" : 1,
         "first_ionizing kJ/mol" : 589.4,
         "oxidation_states" : 2,
-        "electronic_configuration" : "[Ar]4s²",
+        "electronic_configuration" : "[Ar]4s<sup>2</sup>",
         "lattice_structure" : "FCC",
-        "lattice_constant ang" : 5.580
+        "lattice_constant ang" : 5.58
     },
     "Scandium": {
         "symbol" : "Sc",
@@ -449,7 +449,7 @@ var elements = {
         "atomic_radius pm" : 162,
         "covalent_radius pm" : 144,
         "ionic_radius pm" : "",
-        "atomic_volume cm3/mol" : 15.0,
+        "atomic_volume cm3/mol" : 15,
         "specific_heat (@20°C J/g mol)" : 0.556,
         "fusion_heat (kJ/mol)" : 15.8,
         "evaporation_heat (kJ/mol)" : 332.7,
@@ -457,9 +457,9 @@ var elements = {
         "pauling_negativity" : 1.36,
         "first_ionizing kJ/mol" : 630.8,
         "oxidation_states" : 3,
-        "electronic_configuration" : "[Ar]3d¹4s²",
+        "electronic_configuration" : "[Ar]3d<sup>1</sup>4s<sup>2</sup>",
         "lattice_structure" : "HEX",
-        "lattice_constant ang" : 3.310
+        "lattice_constant ang" : 3.31
     },
     "Titanium": {
         "symbol" : "Ti",
@@ -479,9 +479,9 @@ var elements = {
         "pauling_negativity" : 1.54,
         "first_ionizing kJ/mol" : 657.8,
         "oxidation_states" : "4, 3",
-        "electronic_configuration" : "[Ar]3d²4s²",
+        "electronic_configuration" : "[Ar]3d<sup>2</sup>4s<sup>2</sup>",
         "lattice_structure" : "HEX",
-        "lattice_constant ang" : 2.950
+        "lattice_constant ang" : 2.95
     },
     "Vanadium": {
         "symbol" : "V",
@@ -501,9 +501,9 @@ var elements = {
         "pauling_negativity" : 1.63,
         "first_ionizing kJ/mol" : 650.1,
         "oxidation_states" : "5, 4, 3, 2, 0",
-        "electronic_configuration" : "[Ar]3d³4s²",
+        "electronic_configuration" : "[Ar]3d<sup>3</sup>4s<sup>2</sup>",
         "lattice_structure" : "BCC",
-        "lattice_constant ang" : 3.020
+        "lattice_constant ang" : 3.02
     },
     "Chromium": {
         "symbol" : "Cr",
@@ -523,9 +523,9 @@ var elements = {
         "pauling_negativity" : 1.66,
         "first_ionizing kJ/mol" : 652.4,
         "oxidation_states" : "6, 3, 2, 0",
-        "electronic_configuration" : "[Ar]3d4s¹",
+        "electronic_configuration" : "[Ar]3d<sup>5</sup>4s<sup>1</sup>",
         "lattice_structure" : "BCC",
-        "lattice_constant ang" : 2.880
+        "lattice_constant ang" : 2.88
     },
     "Manganese": {
         "symbol" : "Mn",
@@ -545,9 +545,9 @@ var elements = {
         "pauling_negativity" : 1.55,
         "first_ionizing kJ/mol" : 716.8,
         "oxidation_states" : "7, 6, 4, 3, 2, 0, -1",
-        "electronic_configuration" : "[Ar]3d4s²",
+        "electronic_configuration" : "[Ar]3d<sup>5</sup>4s<sup>2</sup>",
         "lattice_structure" : "CUB",
-        "lattice_constant ang" : 8.890
+        "lattice_constant ang" : 8.89
     },
     "Iron": {
         "symbol" : "Fe",
@@ -567,9 +567,9 @@ var elements = {
         "pauling_negativity" : 1.83,
         "first_ionizing kJ/mol" : 759.1,
         "oxidation_states" : "6, 3, 2, 0, -2",
-        "electronic_configuration" : "[Ar]3d4s²",
+        "electronic_configuration" : "[Ar]3d<sup>6</sup>4s<sup>2</sup>",
         "lattice_structure" : "BCC",
-        "lattice_constant ang" : 2.870
+        "lattice_constant ang" : 2.87
     },
     "Cobalt": {
         "symbol" : "Co",
@@ -589,9 +589,9 @@ var elements = {
         "pauling_negativity" : 1.88,
         "first_ionizing kJ/mol" : 758.1,
         "oxidation_states" : "3, 2, 0, -1",
-        "electronic_configuration" : "[Ar]3d4s²",
+        "electronic_configuration" : "[Ar]3d<sup>7</sup>4s<sup>2</sup>",
         "lattice_structure" : "HEX",
-        "lattice_constant ang" : 2.510
+        "lattice_constant ang" : 2.51
     },
     "Nickel": {
         "symbol" : "Ni",
@@ -611,9 +611,9 @@ var elements = {
         "pauling_negativity" : 1.91,
         "first_ionizing kJ/mol" : 736.2,
         "oxidation_states" : "3, 2, 0",
-        "electronic_configuration" : "[Ar]3d4s²",
+        "electronic_configuration" : "[Ar]3d<sup>8</sup>4s<sup>2</sup>",
         "lattice_structure" : "FCC",
-        "lattice_constant ang" : 3.520
+        "lattice_constant ang" : 3.52
     },
     "Copper": {
         "symbol" : "Cu",
@@ -630,12 +630,12 @@ var elements = {
         "fusion_heat (kJ/mol)" : 13.01,
         "evaporation_heat (kJ/mol)" : 304.6,
         "thermal_conductivity (@25°C W/m K) " : 401,
-        "pauling_negativity" : 1.90,
-        "first_ionizing kJ/mol" : 745.0,
+        "pauling_negativity" : 1.9,
+        "first_ionizing kJ/mol" : 745,
         "oxidation_states" : "2, 1",
-        "electronic_configuration" : "[Ar]3d¹4s¹",
+        "electronic_configuration" : "[Ar]3d<sup>10</sup>4s<sup>1</sup>",
         "lattice_structure" : "FCC",
-        "lattice_constant ang" : 3.610
+        "lattice_constant ang" : 3.61
     },
     "Zinc": {
         "symbol" : "Zn",
@@ -655,9 +655,9 @@ var elements = {
         "pauling_negativity" : 1.65,
         "first_ionizing kJ/mol" : 905.8,
         "oxidation_states" : 2,
-        "electronic_configuration" : "[Ar]3d¹4s²",
+        "electronic_configuration" : "[Ar]3d<sup>10</sup>4s<sup>2</sup>",
         "lattice_structure" : "HEX",
-        "lattice_constant ang" : 2.660
+        "lattice_constant ang" : 2.66
     },
     "Gallium": {
         "symbol" : "Ga",
@@ -677,9 +677,9 @@ var elements = {
         "pauling_negativity" : 1.81,
         "first_ionizing kJ/mol" : 578.7,
         "oxidation_states" : 3,
-        "electronic_configuration" : "[Ar]3d¹4s²4p¹",
+        "electronic_configuration" : "[Ar]3d<sup>10</sup>4s<sup>2</sup>4p<sup>1</sup>",
         "lattice_structure" : "ORC",
-        "lattice_constant ang" : 4.510
+        "lattice_constant ang" : 4.51
     },
     "Germanium": {
         "symbol" : "Ge",
@@ -697,11 +697,11 @@ var elements = {
         "evaporation_heat (kJ/mol)" : 328,
         "thermal_conductivity (@25°C W/m K) " : 60.2,
         "pauling_negativity" : 2.01,
-        "first_ionizing kJ/mol" : 760.0,
+        "first_ionizing kJ/mol" : 760,
         "oxidation_states" : 4,
-        "electronic_configuration" : "[Ar]3d¹4s²4p²",
+        "electronic_configuration" : "[Ar]3d<sup>10</sup>4s<sup>2</sup>4p<sup>2</sup>",
         "lattice_structure" : "DIA",
-        "lattice_constant ang" : 5.660
+        "lattice_constant ang" : 5.66
     },
     "Arsenic": {
         "symbol" : "As",
@@ -721,9 +721,9 @@ var elements = {
         "pauling_negativity" : 2.18,
         "first_ionizing kJ/mol" : 946.2,
         "oxidation_states" : "5, 3, -2",
-        "electronic_configuration" : "[Ar]3d¹4s²4p³",
+        "electronic_configuration" : "[Ar]3d<sup>10</sup>4s<sup>2</sup>4p<sup>3</sup>",
         "lattice_structure" : "RHL",
-        "lattice_constant ang" : 4.130
+        "lattice_constant ang" : 4.13
     },
     "Selenium": {
         "symbol" : "Se",
@@ -743,9 +743,9 @@ var elements = {
         "pauling_negativity" : 2.55,
         "first_ionizing kJ/mol" : 940.4,
         "oxidation_states" : "6, 4, -2",
-        "electronic_configuration" : "[Ar]3d¹4s²4p",
+        "electronic_configuration" : "[Ar]3d<sup>10</sup>4s<sup>2</sup>4p<sup>4</sup>",
         "lattice_structure" : "HEX",
-        "lattice_constant ang" : 4.360
+        "lattice_constant ang" : 4.36
     },
     "Bromine": {
         "symbol" : "Br",
@@ -763,11 +763,11 @@ var elements = {
         "evaporation_heat (kJ/mol)" : "29.56 (Br-Br)",
         "thermal_conductivity (@25°C W/m K) " : 0.005,
         "pauling_negativity" : 2.96,
-        "first_ionizing kJ/mol" : 1142.0,
+        "first_ionizing kJ/mol" : 1142,
         "oxidation_states" : "7, 5, 3, 1, -1",
-        "electronic_configuration" : "[Ar]3d¹4s²4p",
+        "electronic_configuration" : "[Ar]3d<sup>10</sup>4s<sup>2</sup>4p<sup>5</sup>",
         "lattice_structure" : "ORC",
-        "lattice_constant ang" : 6.670
+        "lattice_constant ang" : 6.67
     },
     "Krypton": {
         "symbol" : "Kr",
@@ -784,12 +784,12 @@ var elements = {
         "fusion_heat (kJ/mol)" : "-",
         "evaporation_heat (kJ/mol)" : 9.05,
         "thermal_conductivity (@25°C W/m K) " : 0.0095,
-        "pauling_negativity" : 0.0,
-        "first_ionizing kJ/mol" : 1350.0,
+        "pauling_negativity" : 0,
+        "first_ionizing kJ/mol" : 1350,
         "oxidation_states" : 2,
-        "electronic_configuration" : "[Ar]3d¹4s²4p",
+        "electronic_configuration" : "[Ar]3d<sup>10</sup>4s<sup>2</sup>4p<sup>6</sup>",
         "lattice_structure" : "FCC",
-        "lattice_constant ang" : 5.720
+        "lattice_constant ang" : 5.72
     },
     "Rubidium": {
         "symbol" : "Rb",
@@ -802,16 +802,16 @@ var elements = {
         "covalent_radius pm" : 216,
         "ionic_radius pm" : "",
         "atomic_volume cm3/mol" : 55.9,
-        "specific_heat (@20°C J/g mol)" : 0.360,
-        "fusion_heat (kJ/mol)" : 2.20,
+        "specific_heat (@20°C J/g mol)" : 0.36,
+        "fusion_heat (kJ/mol)" : 2.2,
         "evaporation_heat (kJ/mol)" : 75.8,
         "thermal_conductivity (@25°C W/m K) " : 58.2,
         "pauling_negativity" : 0.82,
         "first_ionizing kJ/mol" : 402.8,
         "oxidation_states" : 1,
-        "electronic_configuration" : "[Kr]5s¹",
+        "electronic_configuration" : "[Kr]5s<sup>1</sup>",
         "lattice_structure" : "BCC",
-        "lattice_constant ang" : 5.590
+        "lattice_constant ang" : 5.59
     },
     "Strontium": {
         "symbol" : "Sr",
@@ -825,15 +825,15 @@ var elements = {
         "ionic_radius pm" : "",
         "atomic_volume cm3/mol" : 33.7,
         "specific_heat (@20°C J/g mol)" : 0.301,
-        "fusion_heat (kJ/mol)" : 9.20,
+        "fusion_heat (kJ/mol)" : 9.2,
         "evaporation_heat (kJ/mol)" : 144,
         "thermal_conductivity (@25°C W/m K) " : "(35.4)",
         "pauling_negativity" : 0.95,
-        "first_ionizing kJ/mol" : 549.0,
+        "first_ionizing kJ/mol" : 549,
         "oxidation_states" : 2,
-        "electronic_configuration" : "[Kr]5s²",
+        "electronic_configuration" : "[Kr]5s<sup>2</sup>",
         "lattice_structure" : "FCC",
-        "lattice_constant ang" : 6.080
+        "lattice_constant ang" : 6.08
     },
     "Yttrium": {
         "symbol" : "Y",
@@ -853,9 +853,9 @@ var elements = {
         "pauling_negativity" : 1.22,
         "first_ionizing kJ/mol" : 615.4,
         "oxidation_states" : 3,
-        "electronic_configuration" : "[Kr]4d¹5s²",
+        "electronic_configuration" : "[Kr]4d<sup>1</sup>5s<sup>2</sup>",
         "lattice_structure" : "HEX",
-        "lattice_constant ang" : 3.650
+        "lattice_constant ang" : 3.65
     },
     "Zirconium": {
         "symbol" : "Zr",
@@ -875,9 +875,9 @@ var elements = {
         "pauling_negativity" : 1.33,
         "first_ionizing kJ/mol" : 659.7,
         "oxidation_states" : 4,
-        "electronic_configuration" : "[Kr]4d²5s²",
+        "electronic_configuration" : "[Kr]4d<sup>2</sup>5s<sup>2</sup>",
         "lattice_structure" : "HEX",
-        "lattice_constant ang" : 3.230
+        "lattice_constant ang" : 3.23
     },
     "Niobium": {
         "symbol" : "Nb",
@@ -897,9 +897,9 @@ var elements = {
         "pauling_negativity" : 1.6,
         "first_ionizing kJ/mol" : 663.6,
         "oxidation_states" : "5, 3",
-        "electronic_configuration" : "[Kr]4d5s¹",
+        "electronic_configuration" : "[Kr]4d<sup>4</sup>5s<sup>1</sup>",
         "lattice_structure" : "BCC",
-        "lattice_constant ang" : 3.300
+        "lattice_constant ang" : 3.3
     },
     "Molybdenum": {
         "symbol" : "Mo",
@@ -919,9 +919,9 @@ var elements = {
         "pauling_negativity" : 2.16,
         "first_ionizing kJ/mol" : 684.8,
         "oxidation_states" : "6, 5, 4, 3, 2, 0",
-        "electronic_configuration" : "[Kr]4d5s¹",
+        "electronic_configuration" : "[Kr]4d<sup>5</sup>5s<sup>1</sup>",
         "lattice_structure" : "BCC",
-        "lattice_constant ang" : 3.150
+        "lattice_constant ang" : 3.15
     },
     "Technetium": {
         "symbol" : "Tc",
@@ -941,9 +941,9 @@ var elements = {
         "pauling_negativity" : 1.9,
         "first_ionizing kJ/mol" : 702.2,
         "oxidation_states" : 7,
-        "electronic_configuration" : "[Kr]4d5s¹",
+        "electronic_configuration" : "[Kr]4d<sup>5</sup>5s<sup>2</sup>",
         "lattice_structure" : "HEX",
-        "lattice_constant ang" : 2.740
+        "lattice_constant ang" : 2.74
     },
     "Ruthenium": {
         "symbol" : "Ru",
@@ -959,13 +959,13 @@ var elements = {
         "specific_heat (@20°C J/g mol)" : 0.238,
         "fusion_heat (kJ/mol)" : "(25.5)",
         "evaporation_heat (kJ/mol)" : "-",
-        "thermal_conductivity (@25°C W/m K) " : 117.0,
+        "thermal_conductivity (@25°C W/m K) " : 117,
         "pauling_negativity" : 2.2,
         "first_ionizing kJ/mol" : 710.3,
         "oxidation_states" : "8, 6, 4, 3, 2, 0, -2",
-        "electronic_configuration" : "[Kr]4d5s¹",
+        "electronic_configuration" : "[Kr]4d<sup>7</sup>5s<sup>1</sup>",
         "lattice_structure" : "HEX",
-        "lattice_constant ang" : 2.700
+        "lattice_constant ang" : 2.7
     },
     "Rhodium": {
         "symbol" : "Rh",
@@ -985,9 +985,9 @@ var elements = {
         "pauling_negativity" : 2.28,
         "first_ionizing kJ/mol" : 719.5,
         "oxidation_states" : "5, 4, 3, 2, 1, 0",
-        "electronic_configuration" : "[Kr]4d5s¹",
+        "electronic_configuration" : "[Kr]4d<sup>8</sup>5s<sup>1</sup>",
         "lattice_structure" : "FCC",
-        "lattice_constant ang" : 3.800
+        "lattice_constant ang" : 3.8
     },
     "Palladium": {
         "symbol" : "Pd",
@@ -1004,12 +1004,12 @@ var elements = {
         "fusion_heat (kJ/mol)" : 17.24,
         "evaporation_heat (kJ/mol)" : 372.4,
         "thermal_conductivity (@25°C W/m K) " : 71.8,
-        "pauling_negativity" : 2.20,
+        "pauling_negativity" : 2.2,
         "first_ionizing kJ/mol" : 803.5,
         "oxidation_states" : "4, 2, 0",
-        "electronic_configuration" : "[Kr]4d5s",
+        "electronic_configuration" : "[Kr]4d<sup>10</sup>",
         "lattice_structure" : "FCC",
-        "lattice_constant ang" : 3.890
+        "lattice_constant ang" : 3.89
     },
     "Silver": {
         "symbol" : "Ag",
@@ -1029,9 +1029,9 @@ var elements = {
         "pauling_negativity" : 1.93,
         "first_ionizing kJ/mol" : 730.5,
         "oxidation_states" : "2, 1",
-        "electronic_configuration" : "[Kr]4d5s¹",
+        "electronic_configuration" : "[Kr]4d<sup>10</sup>5s<sup>1</sup>",
         "lattice_structure" : "FCC",
-        "lattice_constant ang" : 4.090
+        "lattice_constant ang" : 4.09
     },
     "Cadmium": {
         "symbol" : "Cd",
@@ -1051,9 +1051,9 @@ var elements = {
         "pauling_negativity" : 1.69,
         "first_ionizing kJ/mol" : 867.2,
         "oxidation_states" : 2,
-        "electronic_configuration" : "[Kr]4d5s²",
+        "electronic_configuration" : "[Kr]4d<sup>10</sup>5s<sup>2</sup>",
         "lattice_structure" : "HEX",
-        "lattice_constant ang" : 2.980
+        "lattice_constant ang" : 2.98
     },
     "Indium": {
         "symbol" : "In",
@@ -1071,11 +1071,11 @@ var elements = {
         "evaporation_heat (kJ/mol)" : 225.1,
         "thermal_conductivity (@25°C W/m K) " : 81.8,
         "pauling_negativity" : 1.78,
-        "first_ionizing kJ/mol" : 558.0,
+        "first_ionizing kJ/mol" : 558,
         "oxidation_states" : 3,
-        "electronic_configuration" : "[Kr]4d5s²5p¹",
+        "electronic_configuration" : "[Kr]4d<sup>10</sup>5s<sup>2</sup>5p<sup>1</sup>",
         "lattice_structure" : "TET",
-        "lattice_constant ang" : 4.590
+        "lattice_constant ang" : 4.59
     },
     "Tin": {
         "symbol" : "Sn",
@@ -1095,14 +1095,14 @@ var elements = {
         "pauling_negativity" : 1.96,
         "first_ionizing kJ/mol" : 708.2,
         "oxidation_states" : "4, 2",
-        "electronic_configuration" : "[Kr]4d5s²5p²",
+        "electronic_configuration" : "[Kr]4d<sup>10</sup>5s<sup>2</sup>5p<sup>2</sup>",
         "lattice_structure" : "TET",
-        "lattice_constant ang" : 5.820
+        "lattice_constant ang" : 5.82
     },
     "Antimony": {
         "symbol" : "Sb",
         "atomic_number" : 51,
-        "atomic_weight" : 121.760,
+        "atomic_weight" : 121.76,
         "density g/cm" : 6.691,
         "melting_point K" : 903.9,
         "boiling_point K" : 1908,
@@ -1117,9 +1117,9 @@ var elements = {
         "pauling_negativity" : 2.05,
         "first_ionizing kJ/mol" : 833.3,
         "oxidation_states" : "5, 3, -2",
-        "electronic_configuration" : "[Kr]4d5s²5p³",
+        "electronic_configuration" : "[Kr]4d<sup>10</sup>5s<sup>2</sup>5p<sup>3</sup>",
         "lattice_structure" : "RHL",
-        "lattice_constant ang" : 4.510
+        "lattice_constant ang" : 4.51
     },
     "Tellurium": {
         "symbol" : "Te",
@@ -1137,11 +1137,11 @@ var elements = {
         "evaporation_heat (kJ/mol)" : 49.8,
         "thermal_conductivity (@25°C W/m K) " : 14.3,
         "pauling_negativity" : 2.1,
-        "first_ionizing kJ/mol" : 869.0,
+        "first_ionizing kJ/mol" : 869,
         "oxidation_states" : "6, 4, 2",
-        "electronic_configuration" : "[Kr]4d5s²5p",
+        "electronic_configuration" : "[Kr]4d<sup>10</sup>5s<sup>2</sup>5p<sup>4</sup>",
         "lattice_structure" : "HEX",
-        "lattice_constant ang" : 4.450
+        "lattice_constant ang" : 4.45
     },
     "Iodine": {
         "symbol" : "I",
@@ -1161,9 +1161,9 @@ var elements = {
         "pauling_negativity" : 2.66,
         "first_ionizing kJ/mol" : 1008.3,
         "oxidation_states" : "7, 5, 1, -1",
-        "electronic_configuration" : "[Kr]4d5s²5p",
+        "electronic_configuration" : "[Kr]4d<sup>10</sup>5s<sup>2</sup>5p<sup>5</sup>",
         "lattice_structure" : "ORC",
-        "lattice_constant ang" : 7.720
+        "lattice_constant ang" : 7.72
     },
     "Xenon": {
         "symbol" : "Xe",
@@ -1180,12 +1180,12 @@ var elements = {
         "fusion_heat (kJ/mol)" : "-",
         "evaporation_heat (kJ/mol)" : 12.65,
         "thermal_conductivity (@25°C W/m K) " : 0.0057,
-        "pauling_negativity" : 0.0,
-        "first_ionizing kJ/mol" : 1170.0,
+        "pauling_negativity" : 0,
+        "first_ionizing kJ/mol" : 1170,
         "oxidation_states" : 7,
-        "electronic_configuration" : "[Kr]4d5s²5p",
+        "electronic_configuration" : "[Kr]4d<sup>10</sup>5s<sup>2</sup>5p<sup>6</sup>",
         "lattice_structure" : "FCC",
-        "lattice_constant ang" : 6.200
+        "lattice_constant ang" : 6.2
     },
     "Cesium": {
         "symbol" : "Cs",
@@ -1197,7 +1197,7 @@ var elements = {
         "atomic_radius pm" : 267,
         "covalent_radius pm" : 235,
         "ionic_radius pm" : "",
-        "atomic_volume cm3/mol" : 70.0,
+        "atomic_volume cm3/mol" : 70,
         "specific_heat (@20°C J/g mol)" : 0.241,
         "fusion_heat (kJ/mol)" : 2.09,
         "evaporation_heat (kJ/mol)" : 68.3,
@@ -1205,9 +1205,9 @@ var elements = {
         "pauling_negativity" : 0.79,
         "first_ionizing kJ/mol" : 375.5,
         "oxidation_states" : 1,
-        "electronic_configuration" : "[Xe]6s¹",
+        "electronic_configuration" : "[Xe]6s<sup>1</sup>",
         "lattice_structure" : "BCC",
-        "lattice_constant ang" : 6.050
+        "lattice_constant ang" : 6.05
     },
     "Barium": {
         "symbol" : "Ba",
@@ -1219,17 +1219,17 @@ var elements = {
         "atomic_radius pm" : 222,
         "covalent_radius pm" : 198,
         "ionic_radius pm" : "",
-        "atomic_volume cm3/mol" : 39.0,
+        "atomic_volume cm3/mol" : 39,
         "specific_heat (@20°C J/g mol)" : 0.192,
         "fusion_heat (kJ/mol)" : 7.66,
-        "evaporation_heat (kJ/mol)" : 142.0,
+        "evaporation_heat (kJ/mol)" : 142,
         "thermal_conductivity (@25°C W/m K) " : "(18.4)",
         "pauling_negativity" : 0.89,
         "first_ionizing kJ/mol" : 502.5,
         "oxidation_states" : 2,
-        "electronic_configuration" : "[Xe]6s²",
+        "electronic_configuration" : "[Xe]6s<sup>2</sup>",
         "lattice_structure" : "BCC",
-        "lattice_constant ang" : 5.020
+        "lattice_constant ang" : 5.02
     },
     "Lanthanum": {
         "symbol" : "La",
@@ -1246,12 +1246,12 @@ var elements = {
         "fusion_heat (kJ/mol)" : 8.5,
         "evaporation_heat (kJ/mol)" : 402,
         "thermal_conductivity (@25°C W/m K) " : 13.4,
-        "pauling_negativity" : 1.10,
+        "pauling_negativity" : 1.1,
         "first_ionizing kJ/mol" : 541.1,
         "oxidation_states" : 3,
-        "electronic_configuration" : "[Xe]6d¹6s²",
+        "electronic_configuration" : "[Xe]5d<sup>1</sup>6s<sup>2</sup>",
         "lattice_structure" : "HEX",
-        "lattice_constant ang" : 3.750
+        "lattice_constant ang" : 3.75
     },
     "Cerium": {
         "symbol" : "Ce",
@@ -1263,7 +1263,7 @@ var elements = {
         "atomic_radius pm" : 181,
         "covalent_radius pm" : 165,
         "ionic_radius pm" : "",
-        "atomic_volume cm3/mol" : 21.0,
+        "atomic_volume cm3/mol" : 21,
         "specific_heat (@20°C J/g mol)" : 0.205,
         "fusion_heat (kJ/mol)" : 5.2,
         "evaporation_heat (kJ/mol)" : 398,
@@ -1271,9 +1271,9 @@ var elements = {
         "pauling_negativity" : 1.12,
         "first_ionizing kJ/mol" : 540.1,
         "oxidation_states" : "4, 3",
-        "electronic_configuration" : "[Xe]4f¹5d¹6s²",
+        "electronic_configuration" : "[Xe]4f<sup>1</sup>5d<sup>1</sup>6s<sup>2</sup>",
         "lattice_structure" : "FCC",
-        "lattice_constant ang" : 5.160
+        "lattice_constant ang" : 5.16
     },
     "Praseodymium": {
         "symbol" : "Pr",
@@ -1293,9 +1293,9 @@ var elements = {
         "pauling_negativity" : 1.13,
         "first_ionizing kJ/mol" : 526.6,
         "oxidation_states" : "4, 3",
-        "electronic_configuration" : "[Xe]4f³5d6s²",
+        "electronic_configuration" : "[Xe]4f<sup>3</sup>6s<sup>2</sup>",
         "lattice_structure" : "HEX",
-        "lattice_constant ang" : 3.670
+        "lattice_constant ang" : 3.67
     },
     "Neodymium": {
         "symbol" : "Nd",
@@ -1315,9 +1315,9 @@ var elements = {
         "pauling_negativity" : 1.14,
         "first_ionizing kJ/mol" : 531.5,
         "oxidation_states" : 3,
-        "electronic_configuration" : "[Xe]4f5d6s²",
+        "electronic_configuration" : "[Xe]4f<sup>4</sup>6s<sup>2</sup>",
         "lattice_structure" : "HEX",
-        "lattice_constant ang" : 3.660
+        "lattice_constant ang" : 3.66
     },
     "Promethium": {
         "symbol" : "Pm",
@@ -1334,10 +1334,10 @@ var elements = {
         "fusion_heat (kJ/mol)" : "-",
         "evaporation_heat (kJ/mol)" : "-",
         "thermal_conductivity (@25°C W/m K) " : 17.9,
-        "pauling_negativity" : 0.0,
+        "pauling_negativity" : 0,
         "first_ionizing kJ/mol" : 536,
         "oxidation_states" : 3,
-        "electronic_configuration" : "[Xe]4f5d6s²",
+        "electronic_configuration" : "[Xe]4f<sup>5</sup>6s<sup>2</sup>",
         "lattice_structure" : "n/a",
         "lattice_constant ang" : "n/a"
     },
@@ -1345,23 +1345,23 @@ var elements = {
         "symbol" : "Sm",
         "atomic_number" : 62,
         "atomic_weight" : 150.36,
-        "density g/cm" : 7.520,
+        "density g/cm" : 7.52,
         "melting_point K" : 1350,
         "boiling_point K" : 2064,
         "atomic_radius pm" : 181,
         "covalent_radius pm" : 162,
         "ionic_radius pm" : "",
         "atomic_volume cm3/mol" : 19.9,
-        "specific_heat (@20°C J/g mol)" : 0.180,
+        "specific_heat (@20°C J/g mol)" : 0.18,
         "fusion_heat (kJ/mol)" : 8.9,
         "evaporation_heat (kJ/mol)" : 165,
         "thermal_conductivity (@25°C W/m K) " : "(13.3)",
         "pauling_negativity" : 1.17,
         "first_ionizing kJ/mol" : 540.1,
         "oxidation_states" : "3, 2",
-        "electronic_configuration" : "[Xe]4f5d6s²",
+        "electronic_configuration" : "[Xe]4f<sup>6</sup>6s<sup>2</sup>",
         "lattice_structure" : "RHL",
-        "lattice_constant ang" : 9.000
+        "lattice_constant ang" : 9
     },
     "Europium": {
         "symbol" : "Eu",
@@ -1378,34 +1378,34 @@ var elements = {
         "fusion_heat (kJ/mol)" : "-",
         "evaporation_heat (kJ/mol)" : 176,
         "thermal_conductivity (@25°C W/m K) " : 13.9,
-        "pauling_negativity" : 0.0,
+        "pauling_negativity" : 0,
         "first_ionizing kJ/mol" : 546.9,
         "oxidation_states" : "3, 2",
-        "electronic_configuration" : "[Xe]4f5d6s²",
+        "electronic_configuration" : "[Xe]4f<sup>7</sup>6s<sup>2</sup>",
         "lattice_structure" : "BCC",
-        "lattice_constant ang" : 4.610
+        "lattice_constant ang" : 4.61
     },
     "Gadolinium": {
         "symbol" : "Gd",
         "atomic_number" : 64,
         "atomic_weight" : 157.25,
-        "density g/cm" : 7.900,
+        "density g/cm" : 7.9,
         "melting_point K" : 1586,
         "boiling_point K" : 3539,
         "atomic_radius pm" : 179,
         "covalent_radius pm" : 161,
         "ionic_radius pm" : "",
         "atomic_volume cm3/mol" : 19.9,
-        "specific_heat (@20°C J/g mol)" : 0.230,
+        "specific_heat (@20°C J/g mol)" : 0.23,
         "fusion_heat (kJ/mol)" : "-",
         "evaporation_heat (kJ/mol)" : 398,
         "thermal_conductivity (@25°C W/m K) " : "(10.5)",
-        "pauling_negativity" : 1.20,
+        "pauling_negativity" : 1.2,
         "first_ionizing kJ/mol" : 594.2,
         "oxidation_states" : 3,
-        "electronic_configuration" : "[Xe]4f5d¹6s²",
+        "electronic_configuration" : "[Xe]4f<sup>7</sup>5d<sup>1</sup>6s<sup>2</sup>",
         "lattice_structure" : "HEX",
-        "lattice_constant ang" : 3.640
+        "lattice_constant ang" : 3.64
     },
     "Terbium": {
         "symbol" : "Tb",
@@ -1425,21 +1425,21 @@ var elements = {
         "pauling_negativity" : 1.2,
         "first_ionizing kJ/mol" : 569,
         "oxidation_states" : "4, 3",
-        "electronic_configuration" : "[Xe]4f5d6s²",
+        "electronic_configuration" : "[Xe]4f<sup>9</sup>6s<sup>2</sup>",
         "lattice_structure" : "HEX",
-        "lattice_constant ang" : 3.600
+        "lattice_constant ang" : 3.6
     },
     "Dysprosium": {
         "symbol" : "Dy",
         "atomic_number" : 66,
-        "atomic_weight" : 162.50,
+        "atomic_weight" : 162.5,
         "density g/cm" : 8.55,
         "melting_point K" : 1685,
         "boiling_point K" : 2835,
         "atomic_radius pm" : 180,
         "covalent_radius pm" : 159,
         "ionic_radius pm" : "",
-        "atomic_volume cm3/mol" : 19.0,
+        "atomic_volume cm3/mol" : 19,
         "specific_heat (@20°C J/g mol)" : 0.173,
         "fusion_heat (kJ/mol)" : "-",
         "evaporation_heat (kJ/mol)" : 291,
@@ -1447,9 +1447,9 @@ var elements = {
         "pauling_negativity" : "-",
         "first_ionizing kJ/mol" : 567,
         "oxidation_states" : 3,
-        "electronic_configuration" : "[Xe]4f5d6s²",
+        "electronic_configuration" : "[Xe]4f<sup>10</sup>6s<sup>2</sup>",
         "lattice_structure" : "HEX",
-        "lattice_constant ang" : 3.590
+        "lattice_constant ang" : 3.59
     },
     "Holmium": {
         "symbol" : "Ho",
@@ -1469,9 +1469,9 @@ var elements = {
         "pauling_negativity" : 1.23,
         "first_ionizing kJ/mol" : 574,
         "oxidation_states" : 3,
-        "electronic_configuration" : "[Xe]4f¹¹5d6s²",
+        "electronic_configuration" : "[Xe]4f<sup>11</sup>6s<sup>2</sup>",
         "lattice_structure" : "HEX",
-        "lattice_constant ang" : 3.580
+        "lattice_constant ang" : 3.58
     },
     "Erbium": {
         "symbol" : "Er",
@@ -1491,9 +1491,9 @@ var elements = {
         "pauling_negativity" : 1.24,
         "first_ionizing kJ/mol" : 581,
         "oxidation_states" : 3,
-        "electronic_configuration" : "[Xe]4f¹²5d6s²",
+        "electronic_configuration" : "[Xe]4f<sup>12</sup>6s<sup>2</sup>",
         "lattice_structure" : "HEX",
-        "lattice_constant ang" : 3.560
+        "lattice_constant ang" : 3.56
     },
     "Thulium": {
         "symbol" : "Tm",
@@ -1506,16 +1506,16 @@ var elements = {
         "covalent_radius pm" : 156,
         "ionic_radius pm" : "",
         "atomic_volume cm3/mol" : 18.1,
-        "specific_heat (@20°C J/g mol)" : 0.160,
+        "specific_heat (@20°C J/g mol)" : 0.16,
         "fusion_heat (kJ/mol)" : "-",
         "evaporation_heat (kJ/mol)" : 232,
         "thermal_conductivity (@25°C W/m K) " : "(16.9)",
         "pauling_negativity" : 1.25,
         "first_ionizing kJ/mol" : 589,
         "oxidation_states" : "3, 2",
-        "electronic_configuration" : "[Xe]4f¹³5d6s²",
+        "electronic_configuration" : "[Xe]4f<sup>13</sup>6s<sup>2</sup>",
         "lattice_structure" : "HEX",
-        "lattice_constant ang" : 3.540
+        "lattice_constant ang" : 3.54
     },
     "Ytterbium": {
         "symbol" : "Yb",
@@ -1535,9 +1535,9 @@ var elements = {
         "pauling_negativity" : 1.1,
         "first_ionizing kJ/mol" : 603,
         "oxidation_states" : "3, 2",
-        "electronic_configuration" : "[Xe]4f¹5d¹6s²",
+        "electronic_configuration" : "[Xe]4f<sup>14</sup>6s<sup>2</sup>",
         "lattice_structure" : "FCC",
-        "lattice_constant ang" : 5.490
+        "lattice_constant ang" : 5.49
     },
     "Lutetium": {
         "symbol" : "Lu",
@@ -1557,9 +1557,9 @@ var elements = {
         "pauling_negativity" : 1.27,
         "first_ionizing kJ/mol" : 513,
         "oxidation_states" : 3,
-        "electronic_configuration" : "[Xe]4f¹5d¹6s²",
+        "electronic_configuration" : "[Xe]4f<sup>14</sup>5d<sup>1</sup>6s<sup>2</sup>",
         "lattice_structure" : "HEX",
-        "lattice_constant ang" : 3.510
+        "lattice_constant ang" : 3.51
     },
     "Hafnium": {
         "symbol" : "Hf",
@@ -1575,13 +1575,13 @@ var elements = {
         "specific_heat (@20°C J/g mol)" : 0.146,
         "fusion_heat (kJ/mol)" : "(25.1)",
         "evaporation_heat (kJ/mol)" : 575,
-        "thermal_conductivity (@25°C W/m K) " : 23.0,
+        "thermal_conductivity (@25°C W/m K) " : 23,
         "pauling_negativity" : 1.3,
         "first_ionizing kJ/mol" : 575.2,
         "oxidation_states" : 4,
-        "electronic_configuration" : "[Xe]4f¹5d²6s²",
+        "electronic_configuration" : "[Xe]4f<sup>14</sup>5d<sup>2</sup>6s<sup>2</sup>",
         "lattice_structure" : "HEX",
-        "lattice_constant ang" : 3.200
+        "lattice_constant ang" : 3.2
     },
     "Tantalum": {
         "symbol" : "Ta",
@@ -1594,16 +1594,16 @@ var elements = {
         "covalent_radius pm" : 134,
         "ionic_radius pm" : "",
         "atomic_volume cm3/mol" : 10.9,
-        "specific_heat (@20°C J/g mol)" : 0.140,
+        "specific_heat (@20°C J/g mol)" : 0.14,
         "fusion_heat (kJ/mol)" : 24.7,
         "evaporation_heat (kJ/mol)" : 758,
         "thermal_conductivity (@25°C W/m K) " : 57.5,
         "pauling_negativity" : 1.5,
         "first_ionizing kJ/mol" : 760.1,
         "oxidation_states" : 5,
-        "electronic_configuration" : "[Xe]4f¹5d³6s²",
+        "electronic_configuration" : "[Xe]4f<sup>14</sup>5d<sup>3</sup>6s<sup>2</sup>",
         "lattice_structure" : "BCC",
-        "lattice_constant ang" : 3.310
+        "lattice_constant ang" : 3.31
     },
     "Tungsten": {
         "symbol" : "W",
@@ -1623,9 +1623,9 @@ var elements = {
         "pauling_negativity" : 1.7,
         "first_ionizing kJ/mol" : 769.7,
         "oxidation_states" : "6, 5, 4, 3, 2, 0",
-        "electronic_configuration" : "[Xe]4f¹5d6s²",
+        "electronic_configuration" : "[Xe]4f<sup>14</sup>5d<sup>4</sup>6s<sup>2</sup>",
         "lattice_structure" : "BCC",
-        "lattice_constant ang" : 3.160
+        "lattice_constant ang" : 3.16
     },
     "Rhenium": {
         "symbol" : "Re",
@@ -1641,13 +1641,13 @@ var elements = {
         "specific_heat (@20°C J/g mol)" : 0.138,
         "fusion_heat (kJ/mol)" : 34,
         "evaporation_heat (kJ/mol)" : 704,
-        "thermal_conductivity (@25°C W/m K) " : 48.0,
+        "thermal_conductivity (@25°C W/m K) " : 48,
         "pauling_negativity" : 1.9,
         "first_ionizing kJ/mol" : 759.1,
         "oxidation_states" : "5, 4, 3, 2, -1",
-        "electronic_configuration" : "[Xe]4f¹5d6s²",
+        "electronic_configuration" : "[Xe]4f<sup>14</sup>5d<sup>5</sup>6s<sup>2</sup>",
         "lattice_structure" : "HEX",
-        "lattice_constant ang" : 2.760
+        "lattice_constant ang" : 2.76
     },
     "Osmium": {
         "symbol" : "Os",
@@ -1667,9 +1667,9 @@ var elements = {
         "pauling_negativity" : 2.2,
         "first_ionizing kJ/mol" : 819.8,
         "oxidation_states" : "8, 6, 4, 3, 2, 0, -2",
-        "electronic_configuration" : "[Xe]4f¹5d6s²",
+        "electronic_configuration" : "[Xe]4f<sup>14</sup>5d<sup>6</sup>6s<sup>2</sup>",
         "lattice_structure" : "HEX",
-        "lattice_constant ang" : 2.740
+        "lattice_constant ang" : 2.74
     },
     "Iridium": {
         "symbol" : "Ir",
@@ -1686,12 +1686,12 @@ var elements = {
         "fusion_heat (kJ/mol)" : 27.61,
         "evaporation_heat (kJ/mol)" : 604,
         "thermal_conductivity (@25°C W/m K) " : 147,
-        "pauling_negativity" : 2.20,
+        "pauling_negativity" : 2.2,
         "first_ionizing kJ/mol" : 868.1,
         "oxidation_states" : "6, 4, 3, 2, 1, 0, -1",
-        "electronic_configuration" : "[Xe]4f¹5d6s²",
+        "electronic_configuration" : "[Xe]4f<sup>14</sup>5d<sup>7</sup>6s<sup>2</sup>",
         "lattice_structure" : "FCC",
-        "lattice_constant ang" : 3.840
+        "lattice_constant ang" : 3.84
     },
     "Platinum": {
         "symbol" : "Pt",
@@ -1703,7 +1703,7 @@ var elements = {
         "atomic_radius pm" : 139,
         "covalent_radius pm" : 130,
         "ionic_radius pm" : "",
-        "atomic_volume cm3/mol" : 9.10,
+        "atomic_volume cm3/mol" : 9.1,
         "specific_heat (@20°C J/g mol)" : 0.133,
         "fusion_heat (kJ/mol)" : 21.76,
         "evaporation_heat (kJ/mol)" : "~470",
@@ -1711,9 +1711,9 @@ var elements = {
         "pauling_negativity" : 2.28,
         "first_ionizing kJ/mol" : 868.1,
         "oxidation_states" : "4, 2, 0",
-        "electronic_configuration" : "[Xe]4f¹5d6s²",
+        "electronic_configuration" : "[Xe]4f<sup>14</sup>5d<sup>9</sup>6s<sup>1</sup>",
         "lattice_structure" : "FCC",
-        "lattice_constant ang" : 3.920
+        "lattice_constant ang" : 3.92
     },
     "Gold": {
         "symbol" : "Au",
@@ -1733,9 +1733,9 @@ var elements = {
         "pauling_negativity" : 2.54,
         "first_ionizing kJ/mol" : 889.3,
         "oxidation_states" : "3, 1",
-        "electronic_configuration" : "[Xe]4f¹5d¹6s²",
+        "electronic_configuration" : "[Xe]4f<sup>14</sup>5d<sup>10</sup>6s<sup>1</sup>",
         "lattice_structure" : "FCC",
-        "lattice_constant ang" : 4.080
+        "lattice_constant ang" : 4.08
     },
     "Mercury": {
         "symbol" : "Hg",
@@ -1752,12 +1752,12 @@ var elements = {
         "fusion_heat (kJ/mol)" : 2.295,
         "evaporation_heat (kJ/mol)" : 58.5,
         "thermal_conductivity (@25°C W/m K) " : 8.3,
-        "pauling_negativity" : 2.00,
-        "first_ionizing kJ/mol" : 1006.0,
+        "pauling_negativity" : 2,
+        "first_ionizing kJ/mol" : 1006,
         "oxidation_states" : "2, 1",
-        "electronic_configuration" : "[Xe]4f¹5d¹6s²",
+        "electronic_configuration" : "[Xe]4f<sup>14</sup>5d<sup>10</sup>6s<sup>2</sup>",
         "lattice_structure" : "RHL",
-        "lattice_constant ang" : 2.990
+        "lattice_constant ang" : 2.99
     },
     "Thallium": {
         "symbol" : "Tl",
@@ -1777,9 +1777,9 @@ var elements = {
         "pauling_negativity" : 1.62,
         "first_ionizing kJ/mol" : 588.9,
         "oxidation_states" : "3, 1",
-        "electronic_configuration" : "[Xe]4f¹5d¹6s²6p¹",
+        "electronic_configuration" : "[Xe]4f<sup>14</sup>5d<sup>10</sup>6s<sup>2</sup>6p<sup>1</sup>",
         "lattice_structure" : "HEX",
-        "lattice_constant ang" : 3.460
+        "lattice_constant ang" : 3.46
     },
     "Lead": {
         "symbol" : "Pb",
@@ -1799,9 +1799,9 @@ var elements = {
         "pauling_negativity" : 1.8,
         "first_ionizing kJ/mol" : 715.2,
         "oxidation_states" : "4, 2",
-        "electronic_configuration" : "[Xe]4f¹5d¹6s²6p²",
+        "electronic_configuration" : "[Xe]4f<sup>14</sup>5d<sup>10</sup>6s<sup>2</sup>6p<sup>2</sup>",
         "lattice_structure" : "FCC",
-        "lattice_constant ang" : 4.950
+        "lattice_constant ang" : 4.95
     },
     "Bismuth": {
         "symbol" : "Bi",
@@ -1815,15 +1815,15 @@ var elements = {
         "ionic_radius pm" : "",
         "atomic_volume cm3/mol" : 21.3,
         "specific_heat (@20°C J/g mol)" : 0.124,
-        "fusion_heat (kJ/mol)" : 11.00,
-        "evaporation_heat (kJ/mol)" : 172.0,
+        "fusion_heat (kJ/mol)" : 11,
+        "evaporation_heat (kJ/mol)" : 172,
         "thermal_conductivity (@25°C W/m K) " : 7.9,
         "pauling_negativity" : 2.02,
         "first_ionizing kJ/mol" : 702.9,
         "oxidation_states" : "5, 3",
-        "electronic_configuration" : "[Xe]4f¹5d¹6s²6p³",
+        "electronic_configuration" : "[Xe]4f<sup>14</sup>5d<sup>10</sup>6s<sup>2</sup>6p<sup>3</sup>",
         "lattice_structure" : "RHL",
-        "lattice_constant ang" : 4.750
+        "lattice_constant ang" : 4.75
     },
     "Polonium": {
         "symbol" : "Po",
@@ -1840,12 +1840,12 @@ var elements = {
         "fusion_heat (kJ/mol)" : "(10)",
         "evaporation_heat (kJ/mol)" : "(102.9)",
         "thermal_conductivity (@25°C W/m K) " : "-",
-        "pauling_negativity" : 2.0,
+        "pauling_negativity" : 2,
         "first_ionizing kJ/mol" : 813.1,
         "oxidation_states" : "6, 4, 2",
-        "electronic_configuration" : "[Xe]4f¹5d¹6s²6p",
+        "electronic_configuration" : "[Xe]4f<sup>14</sup>5d<sup>10</sup>6s<sup>2</sup>6p<sup>4</sup>",
         "lattice_structure" : "SC",
-        "lattice_constant ang" : 3.350
+        "lattice_constant ang" : 3.35
     },
     "Astatine": {
         "symbol" : "At",
@@ -1865,7 +1865,7 @@ var elements = {
         "pauling_negativity" : 2.2,
         "first_ionizing kJ/mol" : 916.3,
         "oxidation_states" : "7, 5, 3, 1, -1",
-        "electronic_configuration" : "[Xe]4f¹5d¹6s²6p",
+        "electronic_configuration" : "[Xe]4f<sup>14</sup>5d<sup>10</sup>6s<sup>2</sup>6p<sup>5</sup>",
         "lattice_structure" : "n/a",
         "lattice_constant ang" : "n/a"
     },
@@ -1887,7 +1887,7 @@ var elements = {
         "pauling_negativity" : "-",
         "first_ionizing kJ/mol" : 1036.5,
         "oxidation_states" : "-",
-        "electronic_configuration" : "[Xe]4f¹5d¹6s²6p",
+        "electronic_configuration" : "[Xe]4f<sup>14</sup>5d<sup>10</sup>6s<sup>2</sup>6p<sup>6</sup>",
         "lattice_structure" : "FCC",
         "lattice_constant ang" : "n/a"
     },
@@ -1909,7 +1909,7 @@ var elements = {
         "pauling_negativity" : 0.7,
         "first_ionizing kJ/mol" : "~375",
         "oxidation_states" : 2,
-        "electronic_configuration" : "[Rn]7s¹",
+        "electronic_configuration" : "[Rn]7s<sup>1</sup>",
         "lattice_structure" : "BCC",
         "lattice_constant ang" : "n/a"
     },
@@ -1923,15 +1923,15 @@ var elements = {
         "atomic_radius pm" : "-",
         "covalent_radius pm" : "-",
         "ionic_radius pm" : "",
-        "atomic_volume cm3/mol" : 45.0,
-        "specific_heat (@20°C J/g mol)" : 0.120,
+        "atomic_volume cm3/mol" : 45,
+        "specific_heat (@20°C J/g mol)" : 0.12,
         "fusion_heat (kJ/mol)" : "(9.6)",
         "evaporation_heat (kJ/mol)" : "(113)",
         "thermal_conductivity (@25°C W/m K) " : "(18.6)",
         "pauling_negativity" : 0.9,
-        "first_ionizing kJ/mol" : 509.0,
+        "first_ionizing kJ/mol" : 509,
         "oxidation_states" : 2,
-        "electronic_configuration" : "[Rn]7s²",
+        "electronic_configuration" : "[Rn]7s<sup>2</sup>",
         "lattice_structure" : "n/a",
         "lattice_constant ang" : "n/a"
     },
@@ -1953,9 +1953,9 @@ var elements = {
         "pauling_negativity" : 1.1,
         "first_ionizing kJ/mol" : 665.5,
         "oxidation_states" : 3,
-        "electronic_configuration" : "[Rn]6d¹7s²",
+        "electronic_configuration" : "[Rn]6d<sup>1</sup>7s<sup>2</sup>",
         "lattice_structure" : "FCC",
-        "lattice_constant ang" : 5.310
+        "lattice_constant ang" : 5.31
     },
     "Thorium": {
         "symbol" : "Th",
@@ -1975,9 +1975,9 @@ var elements = {
         "pauling_negativity" : 1.3,
         "first_ionizing kJ/mol" : 670.4,
         "oxidation_states" : 4,
-        "electronic_configuration" : "[Rn]5f6d¹7s²",
+        "electronic_configuration" : "[Rn]6d<sup>2</sup>7s<sup>2</sup>",
         "lattice_structure" : "FCC",
-        "lattice_constant ang" : 5.080
+        "lattice_constant ang" : 5.08
     },
     "Protactinium": {
         "symbol" : "Pa",
@@ -1989,7 +1989,7 @@ var elements = {
         "atomic_radius pm" : 161,
         "covalent_radius pm" : "-",
         "ionic_radius pm" : "",
-        "atomic_volume cm3/mol" : 15.0,
+        "atomic_volume cm3/mol" : 15,
         "specific_heat (@20°C J/g mol)" : 0.121,
         "fusion_heat (kJ/mol)" : 16.7,
         "evaporation_heat (kJ/mol)" : 481.2,
@@ -1997,9 +1997,9 @@ var elements = {
         "pauling_negativity" : 1.5,
         "first_ionizing kJ/mol" : "n/a",
         "oxidation_states" : "5, 4",
-        "electronic_configuration" : "[Rn]5f²6d¹7s²",
+        "electronic_configuration" : "[Rn]5f<sup>2</sup>6d<sup>1</sup>7s<sup>2</sup>",
         "lattice_structure" : "TET",
-        "lattice_constant ang" : 3.920
+        "lattice_constant ang" : 3.92
     },
     "Uranium": {
         "symbol" : "U",
@@ -2019,9 +2019,9 @@ var elements = {
         "pauling_negativity" : 1.38,
         "first_ionizing kJ/mol" : 686.4,
         "oxidation_states" : "6, 5, 4, 3",
-        "electronic_configuration" : "[Rn]5f³6d¹7s²",
+        "electronic_configuration" : "[Rn]5f<sup>3</sup>6d<sup>1</sup>7s<sup>2</sup>",
         "lattice_structure" : "ORC",
-        "lattice_constant ang" : 2.850
+        "lattice_constant ang" : 2.85
     },
     "Neptunium": {
         "symbol" : "Np",
@@ -2041,9 +2041,9 @@ var elements = {
         "pauling_negativity" : 1.36,
         "first_ionizing kJ/mol" : "n/a",
         "oxidation_states" : "6, 5, 4, 3",
-        "electronic_configuration" : "[Rn]5f6d¹7s²",
+        "electronic_configuration" : "[Rn]5f<sup>4</sup>6d<sup>1</sup>7s<sup>2</sup>",
         "lattice_structure" : "ORC",
-        "lattice_constant ang" : 4.720
+        "lattice_constant ang" : 4.72
     },
     "Plutonium": {
         "symbol" : "Pu",
@@ -2063,7 +2063,7 @@ var elements = {
         "pauling_negativity" : 1.28,
         "first_ionizing kJ/mol" : 491.9,
         "oxidation_states" : "6, 5, 4, 3",
-        "electronic_configuration" : "[Rn]5f6d7s²",
+        "electronic_configuration" : "[Rn]5f<sup>6</sup>7s<sup>2</sup>",
         "lattice_structure" : "MCL",
         "lattice_constant ang" : "n/a"
     },
@@ -2085,7 +2085,7 @@ var elements = {
         "pauling_negativity" : 1.3,
         "first_ionizing kJ/mol" : "n/a",
         "oxidation_states" : "6, 5, 4, 3",
-        "electronic_configuration" : "[Rn]5f6d7s²",
+        "electronic_configuration" : "[Rn]5f<sup>7</sup>7s<sup>2</sup>",
         "lattice_structure" : "n/a",
         "lattice_constant ang" : "n/a"
     },
@@ -2107,7 +2107,7 @@ var elements = {
         "pauling_negativity" : 1.3,
         "first_ionizing kJ/mol" : "(580)",
         "oxidation_states" : "4, 3",
-        "electronic_configuration" : "[Rn]5f6d¹7s²",
+        "electronic_configuration" : "[Rn]5f<sup>7</sup>6d<sup>1</sup>7s<sup>2</sup>",
         "lattice_structure" : "n/a",
         "lattice_constant ang" : "n/A"
     },
@@ -2129,7 +2129,7 @@ var elements = {
         "pauling_negativity" : 1.3,
         "first_ionizing kJ/mol" : "(600)",
         "oxidation_states" : "4, 3",
-        "electronic_configuration" : "[Rn]5f6d7s²",
+        "electronic_configuration" : "[Rn]5f<sup>9</sup>7s<sup>2</sup>",
         "lattice_structure" : "n/a",
         "lattice_constant ang" : "n/a"
     },
@@ -2151,7 +2151,7 @@ var elements = {
         "pauling_negativity" : 1.3,
         "first_ionizing kJ/mol" : "(610)",
         "oxidation_states" : "4, 3",
-        "electronic_configuration" : "[Rn]5f¹6d7s²",
+        "electronic_configuration" : "[Rn]5f<sup>10</sup>7s<sup>2</sup>",
         "lattice_structure" : "n/a",
         "lattice_constant ang" : "n/a"
     },
@@ -2173,7 +2173,7 @@ var elements = {
         "pauling_negativity" : 1.3,
         "first_ionizing kJ/mol" : "(620)",
         "oxidation_states" : 3,
-        "electronic_configuration" : "[Rn]5f¹¹6d7s²",
+        "electronic_configuration" : "[Rn]5f<sup>11</sup>7s<sup>2</sup>",
         "lattice_structure" : "n/a",
         "lattice_constant ang" : "n/a"
     },
@@ -2195,7 +2195,7 @@ var elements = {
         "pauling_negativity" : 1.3,
         "first_ionizing kJ/mol" : "(630)",
         "oxidation_states" : 3,
-        "electronic_configuration" : "[Rn]5f¹²6d7s²",
+        "electronic_configuration" : "[Rn]5f<sup>12</sup>7s<sup>2</sup>",
         "lattice_structure" : "n/a",
         "lattice_constant ang" : "n/a"
     },
@@ -2217,7 +2217,7 @@ var elements = {
         "pauling_negativity" : 1.3,
         "first_ionizing kJ/mol" : "(635)",
         "oxidation_states" : 3,
-        "electronic_configuration" : "[Rn]5f¹³6d7s²",
+        "electronic_configuration" : "[Rn]5f<sup>13</sup>7s<sup>2</sup>",
         "lattice_structure" : "n/a",
         "lattice_constant ang" : "n/a"
     },
@@ -2239,7 +2239,7 @@ var elements = {
         "pauling_negativity" : 1.3,
         "first_ionizing kJ/mol" : "(640)",
         "oxidation_states" : "3,2",
-        "electronic_configuration" : "[Rn]5f¹6d7s²",
+        "electronic_configuration" : "[Rn]5f<sup>14</sup>7s<sup>2</sup>",
         "lattice_structure" : "n/a",
         "lattice_constant ang" : "n/a"
     },
@@ -2261,7 +2261,7 @@ var elements = {
         "pauling_negativity" : "n/a",
         "first_ionizing kJ/mol" : "n/a",
         "oxidation_states" : 3,
-        "electronic_configuration" : "[Rn]5f¹6d¹7s²",
+        "electronic_configuration" : "[Rn]5f<sup>14</sup>7s<sup>2</sup>7p<sup>1</sup>",
         "lattice_structure" : "n/a",
         "lattice_constant ang" : "n/a"
     },
@@ -2283,7 +2283,7 @@ var elements = {
         "pauling_negativity" : "n/a",
         "first_ionizing kJ/mol" : "n/a",
         "oxidation_states" : "-",
-        "electronic_configuration" : "[Rn]5f¹6d²7s²",
+        "electronic_configuration" : "[Rn]5f<sup>14</sup>6d<sup>2</sup>7s<sup>2</sup>",
         "lattice_structure" : "n/a",
         "lattice_constant ang" : "n/a"
     },
@@ -2305,7 +2305,7 @@ var elements = {
         "pauling_negativity" : "n/a",
         "first_ionizing kJ/mol" : "n/a",
         "oxidation_states" : "-",
-        "electronic_configuration" : "[Rn]5f¹6d³6s²",
+        "electronic_configuration" : "[Rn]5f<sup>14</sup>6d<sup>3</sup>7s<sup>2</sup>",
         "lattice_structure" : "n/a",
         "lattice_constant ang" : "n/a"
     },
@@ -2327,7 +2327,7 @@ var elements = {
         "pauling_negativity" : "n/a",
         "first_ionizing kJ/mol" : "n/a",
         "oxidation_states" : "-",
-        "electronic_configuration" : "[Rn]5f¹6d¹7s²",
+        "electronic_configuration" : "[Rn]5f<sup>14</sup>6d<sup>4</sup>7s<sup>2</sup>",
         "lattice_structure" : "n/a",
         "lattice_constant ang" : "n/a"
     },
@@ -2349,7 +2349,7 @@ var elements = {
         "pauling_negativity" : "n/a",
         "first_ionizing kJ/mol" : "n/a",
         "oxidation_states" : "n/a",
-        "electronic_configuration" : "n/a",
+        "electronic_configuration" : "[Rn]5f<sup>14</sup>6d<sup>5</sup>7s<sup>2</sup>",
         "lattice_structure" : "n/a",
         "lattice_constant ang" : "n/a"
     },
@@ -2371,7 +2371,7 @@ var elements = {
         "pauling_negativity" : "n/a",
         "first_ionizing kJ/mol" : "n/a",
         "oxidation_states" : "n/a",
-        "electronic_configuration" : "n/a",
+        "electronic_configuration" : "[Rn]5f<sup>14</sup>6d<sup>6</sup>7s<sup>2</sup>",
         "lattice_structure" : "n/a",
         "lattice_constant ang" : "n/a"
     },
@@ -2393,7 +2393,7 @@ var elements = {
         "pauling_negativity" : "n/a",
         "first_ionizing kJ/mol" : "n/a",
         "oxidation_states" : "n/a",
-        "electronic_configuration" : "n/a",
+        "electronic_configuration" : "[Rn]5f<sup>14</sup>6d<sup>7</sup>7s<sup>2</sup>",
         "lattice_structure" : "n/a",
         "lattice_constant ang" : "n/a"
     },
@@ -2415,7 +2415,7 @@ var elements = {
         "pauling_negativity" : "n/a",
         "first_ionizing kJ/mol" : "n/a",
         "oxidation_states" : "n/a",
-        "electronic_configuration" : "n/a",
+        "electronic_configuration" : "[Rn]5f<sup>14</sup>6d<sup>8</sup>7s<sup>2</sup>",
         "lattice_structure" : "n/a",
         "lattice_constant ang" : "n/a"
     },
@@ -2437,7 +2437,7 @@ var elements = {
         "pauling_negativity" : "n/a",
         "first_ionizing kJ/mol" : "n/a",
         "oxidation_states" : "n/a",
-        "electronic_configuration" : "n/a",
+        "electronic_configuration" : "[Rn]5f<sup>14</sup>6d<sup>9</sup>7s<sup>2</sup>",
         "lattice_structure" : "n/a",
         "lattice_constant ang" : "n/a"
     },
@@ -2459,7 +2459,7 @@ var elements = {
         "pauling_negativity" : "n/a",
         "first_ionizing kJ/mol" : "n/a",
         "oxidation_states" : "n/a",
-        "electronic_configuration" : "n/a",
+        "electronic_configuration" : "[Rn]5f<sup>14</sup>6d<sup>10</sup>7s<sup>2</sup>",
         "lattice_structure" : "n/a",
         "lattice_constant ang" : "n/a"
     },
@@ -2481,7 +2481,7 @@ var elements = {
         "pauling_negativity" : "n/a",
         "first_ionizing kJ/mol" : "n/a",
         "oxidation_states" : "n/a",
-        "electronic_configuration" : "n/a",
+        "electronic_configuration" : "[Rn]5f<sup>14</sup>6d<sup>10</sup>7s<sup>2</sup>7p<sup>1</sup>",
         "lattice_structure" : "n/a",
         "lattice_constant ang" : "n/a"
     },
@@ -2503,7 +2503,7 @@ var elements = {
         "pauling_negativity" : "n/a",
         "first_ionizing kJ/mol" : "n/a",
         "oxidation_states" : "n/a",
-        "electronic_configuration" : "n/a",
+        "electronic_configuration" : "[Rn]5f<sup>14</sup>6d<sup>10</sup>7s<sup>2</sup>7p<sup>2</sup>",
         "lattice_structure" : "n/a",
         "lattice_constant ang" : "n/a"
     },
@@ -2525,7 +2525,7 @@ var elements = {
         "pauling_negativity" : "n/a",
         "first_ionizing kJ/mol" : "n/a",
         "oxidation_states" : "n/a",
-        "electronic_configuration" : "n/a",
+        "electronic_configuration" : "[Rn]5f<sup>14</sup>6d<sup>10</sup>7s<sup>2</sup>7p<sup>3</sup>",
         "lattice_structure" : "n/a",
         "lattice_constant ang" : "n/a"
     },
@@ -2547,7 +2547,7 @@ var elements = {
         "pauling_negativity" : "n/a",
         "first_ionizing kJ/mol" : "n/a",
         "oxidation_states" : "n/a",
-        "electronic_configuration" : "n/a",
+        "electronic_configuration" : "[Rn]5f<sup>14</sup>6d<sup>10</sup>7s<sup>2</sup>7p<sup>4</sup>",
         "lattice_structure" : "n/a",
         "lattice_constant ang" : "n/a"
     },
@@ -2569,7 +2569,7 @@ var elements = {
         "pauling_negativity" : "n/a",
         "first_ionizing kJ/mol" : "n/a",
         "oxidation_states" : "n/a",
-        "electronic_configuration" : "n/a",
+        "electronic_configuration" : "[Rn]5f<sup>14</sup>6d<sup>10</sup>7s<sup>2</sup>7p<sup>5</sup>",
         "lattice_structure" : "n/a",
         "lattice_constant ang" : "n/a"
     },
@@ -2591,7 +2591,7 @@ var elements = {
         "pauling_negativity" : "n/a",
         "first_ionizing kJ/mol" : "n/a",
         "oxidation_states" : "n/a",
-        "electronic_configuration" : "n/a",
+        "electronic_configuration" : "[Rn]5f<sup>14</sup>6d<sup>10</sup>7s<sup>2</sup>7p<sup>6</sup>",
         "lattice_structure" : "n/a",
         "lattice_constant ang" : "n/a"
     }

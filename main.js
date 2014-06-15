@@ -11,7 +11,7 @@ function parseText(doNotTrack) {
   if (formulaToFromText(inputValue)) outputValue = formulaToFromText(inputValue);
   
   //If we had no luck with anything
-  if (outputValue.indexOf('Color: undefined') !== -1) outputValue = '<iframe src="http://en.wikipedia.org/wiki/en/' + inputValue + '"></iframe>';
+  if (outputValue.indexOf('Color: undefined') !== -1) outputValue = '<iframe src="http://en.wikipedia.org/wiki/' + inputValue + '"></iframe>';
   
   document.getElementById('outputText').innerHTML = outputValue;
 }

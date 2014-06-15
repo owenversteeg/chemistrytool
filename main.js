@@ -12,7 +12,7 @@ function getElement(text) {
 }
 
 function makeElementReadable(element) {
-  return JSON.stringify(element).replace(/_/g,' ').replace(/{/g,'').replace(/}/g,'').replace(/,/g,'<br>').replace(/"/g,'')
+  return JSON.stringify(element).replace(/_/g,' ').replace(/:/g,': ').replace(/{/g,'').replace(/}/g,'').replace(/,/g,'<br>').replace(/"/g,'')
 }
 
 function parseText(doNotTrack) {

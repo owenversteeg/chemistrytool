@@ -3,12 +3,25 @@ Mousetrap.bind('enter', function() { parseText(); });
 Mousetrap.bind('up', function() { increaseValue(5); });
 Mousetrap.bind('down', function() { increaseValue(-5); });
 
+function getElement(text) {
+  var capitalized = text.substr(0,1).toUpperCase()+text.toLowerCase().substr(1)
+  if (elements[capitalized]) return elements[capitalized]
+  for (var i=0; i<elements.length; i++) {
+    if (elements[i].symbol === text) return elements[i]
+  }
+}
+
+function makeElementReadable(element) {
+  return JSON.stringify(element).replace(/_/g,' ').replace(/{/g,'').replace(/}/g,'').replace(/,/g,'<br>').replace(/"/g,'')
+}
+
 function parseText(doNotTrack) {
   var outputValue = '';
   var inputValue = document.getElementById('inputBox').value;
 
   outputValue = getColorOrWavelength(doNotTrack, inputValue);
   if (formulaToFromText(inputValue)) outputValue = formulaToFromText(inputValue);
+  if (getElement(inputValue)) outputValue = makeElementReadable(getElement(inputValue));
   
   //If we had no luck with anything
   if (outputValue.indexOf('Color: undefined') !== -1) outputValue = '<iframe src="http://en.wikipedia.org/wiki/' + inputValue + '"></iframe>';

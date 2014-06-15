@@ -10,6 +10,9 @@ function parseText(doNotTrack) {
   outputValue = getColorOrWavelength(doNotTrack, inputValue);
   if (formulaToFromText(inputValue)) outputValue = formulaToFromText(inputValue);
   
+  //If we had no luck with anything
+  if (outputValue.indexOf('Color: undefined') !== -1) outputValue = '<iframe src="http://en.wikipedia.org/en/' + inputValue + '"></iframe>';
+  
   document.getElementById('outputText').innerHTML = outputValue;
 }
 
@@ -94,7 +97,7 @@ function getColorOrWavelength(doNotTrack, value) {
     returnValue = nanometers + " nanometers = "+color+" = "+Math.round(1000*frequency/1e14)/1000 + "e14 inverse seconds = " + Math.round(1000*energy/1e-19)/1000 +"e-19 J";
     error = "none";
   } else {
-    returnValue = "Sorry! Your chosen color does not exist as one wavelength of light! Color:"+color; 
+    returnValue = "Sorry! Your chosen color does not exist as one wavelength of light! Color: "+color; 
     error = "colorNotOneWavelength";
   }
   

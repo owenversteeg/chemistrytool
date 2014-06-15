@@ -22,7 +22,7 @@ function getElement(text) {
 }
 
 function makeElementReadable(element, elementName) {
-  return elementName + ': <br>' + JSON.stringify(element).replace(/_/g,' ').replace(/:/g,': ').replace(/{/g,'').replace(/}/g,'').replace(/,/g,'<br>').replace(/"/g,'')
+  return '<span class="elementname">'+elementName + '</span><p>' + JSON.stringify(element).replace(/_/g,' ').replace(/:/g,': ').replace(/{/g,'').replace(/}/g,'').replace(/,/g,'<br>').replace(/"/g,'')+'</p>'
 }
 
 function parseText(doNotTrack) {

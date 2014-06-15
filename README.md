@@ -10,4 +10,8 @@ var configs = []
 for (var i=0; i<table.children.length; i++) {
 if (Math.round((i-2)/3) === (i-2)/3) configs.push(table.children[i].innerHTML.split(':')[1].replace(/<\/th>/g,'').replace(/\n/g,'').replace(/ /g,''));
 }
+
+for (var i=0; i<Object.keys(elements).length; i++) {
+elements[Object.keys(elements)[i]].electronic_configuration = configs[i]
+}
 ```

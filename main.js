@@ -3,6 +3,20 @@ Mousetrap.bind('enter', function() { getColorOrWavelength(); });
 Mousetrap.bind('up', function() { increaseValue(5); });
 Mousetrap.bind('down', function() { increaseValue(-5); });
 
+function parseText(doNotTrack) {
+  var outputValue = '';
+  var inputValue = document.getElementById('inputBox').value;
+
+  outputValue = getColorOrWavelength(doNotTrack, inputValue);
+  if (formulaToFromText(inputValue)) outputValue = formulaToFromText(inputValue);
+
+  if (!doNotTrack) {
+    mixpanel.track('getColorOrWavelength', {'color':color, 'wavelength':nanometers, 'direction': direction, 'error': error})
+  }
+  
+  document.getElementById('outputText').innerHTML = outputValue;
+}
+
 function increaseValue(amt) {
   var value = document.getElementById('inputBox').value;
   if (parseFloat(value).toString().length == value.toString().length) {
@@ -21,8 +35,7 @@ function enlargedHex(hex) {
   return x[0]+x[1]+x[1]+x[2]+x[2]+x[3]+x[3];
 }
 
-function getColorOrWavelength(doNotTrack) {
-  var value = document.getElementById('inputBox').value;
+function getColorOrWavelength(doNotTrack, value) {
   var color, direction, error, frequency, energy;
   var nanometers = 0;
   
@@ -76,17 +89,15 @@ function getColorOrWavelength(doNotTrack) {
     }
   }
   document.getElementById('outputColor').style.backgroundColor = color;
-   
+
+  var returnValue = false;
+
   if (nanometers != 0) { 
-    document.getElementById('outputText').innerHTML = nanometers + " nanometers = "+color+" = "+Math.round(1000*frequency/1e14)/1000 + "e14 inverse seconds = " + Math.round(1000*energy/1e-19)/1000 +"e-19 J";
+    returnValue = nanometers + " nanometers = "+color+" = "+Math.round(1000*frequency/1e14)/1000 + "e14 inverse seconds = " + Math.round(1000*energy/1e-19)/1000 +"e-19 J";
     error = "none";
   } else {
-    document.getElementById('outputText').innerHTML = "Sorry! Your chosen color does not exist as one wavelength of light! Color:"+color; 
+    returnValue = "Sorry! Your chosen color does not exist as one wavelength of light! Color:"+color; 
     error = "colorNotOneWavelength";
-  }
-  
-  if (!doNotTrack) {
-    mixpanel.track('getColorOrWavelength', {'color':color, 'wavelength':nanometers, 'direction': direction, 'error': error})
   }
 }
 

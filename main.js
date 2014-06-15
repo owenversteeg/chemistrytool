@@ -9,10 +9,6 @@ function parseText(doNotTrack) {
 
   outputValue = getColorOrWavelength(doNotTrack, inputValue);
   if (formulaToFromText(inputValue)) outputValue = formulaToFromText(inputValue);
-
-  if (!doNotTrack) {
-    mixpanel.track('getColorOrWavelength', {'color':color, 'wavelength':nanometers, 'direction': direction, 'error': error})
-  }
   
   document.getElementById('outputText').innerHTML = outputValue;
 }
@@ -99,6 +95,12 @@ function getColorOrWavelength(doNotTrack, value) {
     returnValue = "Sorry! Your chosen color does not exist as one wavelength of light! Color:"+color; 
     error = "colorNotOneWavelength";
   }
+  
+  if (!doNotTrack) {
+    mixpanel.track('getColorOrWavelength', {'color':color, 'wavelength':nanometers, 'direction': direction, 'error': error})
+  }
+  
+  return returnValue;
 }
 
 function hexToRgb(hex) {

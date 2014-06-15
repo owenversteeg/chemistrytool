@@ -8,7 +8,7 @@ function capitalize(text) {
 }
 
 function getElement(text) {
-  if (Object.keys(elements)[parseInt(text, 10)]) return [elements[Object.keys(elements)[parseInt(text, 10)]], Object.keys(elements)[parseInt(text, 10)]]
+  if (Object.keys(elements)[parseInt(text, 10)-1]) return [elements[Object.keys(elements)[parseInt(text, 10)-1]], Object.keys(elements)[parseInt(text, 10)-1]]
   //User entered atomic number  
 
   text = capitalize(text);

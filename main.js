@@ -1,4 +1,4 @@
-Mousetrap.bind('enter', function() { getColorOrWavelength(); });
+Mousetrap.bind('enter', function() { parseText(); });
 
 Mousetrap.bind('up', function() { increaseValue(5); });
 Mousetrap.bind('down', function() { increaseValue(-5); });

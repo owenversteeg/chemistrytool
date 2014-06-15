@@ -22,8 +22,10 @@ function increaseValue(amt) {
 }
 
 function shortenedHex(hex) {
-  var x = hex.split(''); 
-  return x[0]+x[1]+x[3]+x[5];
+  if (hex) {
+    var x = hex.split(''); 
+    return x[0]+x[1]+x[3]+x[5];
+  } else return false;
 }
 
 function enlargedHex(hex) {

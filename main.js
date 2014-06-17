@@ -112,7 +112,12 @@ function getColorOrWavelength(doNotTrack, value) {
     	energy = 6.62606957e-34 * frequency;
     }
   }
-  document.getElementById('outputColor').style.backgroundColor = color;
+  if (color != undefined) {
+    document.getElementById('outputColor').style.display = null;
+    document.getElementById('outputColor').style.backgroundColor = color;
+  } else {
+    document.getElementById('outputColor').style.display = "none";
+  }
 
   var returnValue = false;
 
